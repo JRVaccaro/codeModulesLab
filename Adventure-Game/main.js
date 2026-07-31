@@ -1,31 +1,11 @@
 
-//Every character should also be able to make rolls. Add the roll method to the Character class.
-class Character {
-    constructor(name){
-        this.name = name;
-        this.health = health;
-        this.inventory = inventory;
-    }
+import { Character, Adventurer } from "./Character.js";
 
-    roll(mod = 0) {
-        const result = Math.floor(Math.random() * 20) + 1 + mod;
-        console.log(`${this.name} rolled a ${result}`);
-        return result;
-    }
-}
 
-class Adventurer extends Character{
-    constructor(name, role){
-        super(name);
-        this.role = role;
-        this.inventory.push("bedroll", "50 gold coins");
-    }
-    scout(){
-        console.log(`${this.name} is scouting about`)
-        super.roll();
-    }
 
-}
+
+
+
 class Companion extends Character{
     constructor(name, type){
         super(name);
