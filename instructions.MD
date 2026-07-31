@@ -1,3 +1,8 @@
+
+Create modular code using the export keyword.
+
+Use modular code using the import keyword.
+
 This very simple assignment has one goal: to modularize pre-existing code for better organization and future use. You will be using pre-existing code from previous projects of your choice. 
 
 Select at least two of your past projects to work with (pick your favorites, or ones you would like to revisit for better understanding or to improve upon). Your selections should be reasonably large so that they can be broken up naturally into smaller parts (modules).
