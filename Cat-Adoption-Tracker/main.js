@@ -1,7 +1,11 @@
 
 
 import { cats } from "./cats.js";
-console.log(cats);
+
+
+import { cats, displayCats } from "./cats.js";
+
+displayCats();
 
 
 

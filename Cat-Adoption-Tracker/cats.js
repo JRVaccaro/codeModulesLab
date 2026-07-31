@@ -14,3 +14,11 @@
     }
 
 ];
+
+export function displayCats(){
+    for(let i = 0; i < cats.length; i++){
+        console.log(cats[i].name);
+        console.log(cats[i.breed]);
+        console.log(cats[i.age]);
+    }
+}
