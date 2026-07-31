@@ -1,5 +1,9 @@
 
 
+import { cats } from "./cats.js";
+console.log(cats);
+
+
 
 const catContainer = document.getElementById("catContainer");
 

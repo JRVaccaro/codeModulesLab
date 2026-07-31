@@ -1,5 +1,5 @@
 
-const cats = [
+ export const cats = [
     {
         name: "Pepper",
         breed: "Domestic Short hair",
